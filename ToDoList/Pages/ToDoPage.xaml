@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoList.Pages.ToDoPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <VerticalStackLayout Padding="10" Spacing="10" Margin="0,0,0,10">
+                <Entry x:Name="titleEntry" Placeholder="Title" PlaceholderColor="LightGrey" TextColor="White" BackgroundColor="#101014" Keyboard="Text" ReturnType="Next" MaxLength="50"/>  
+                <Editor x:Name="detailsEditor" Placeholder="Details" PlaceholderColor="LightGrey" TextColor="White" BackgroundColor="#101014" MaxLength="240" Keyboard="Text" HeightRequest="100"/>
+                <Button x:Name="addBtn" IsVisible="True" Text="Add" TextColor="White" BackgroundColor="MediumPurple" Clicked="AddToDoItem"/> 
+                <Button x:Name="editBtn" IsVisible="False" Text="Edit" TextColor="White" BackgroundColor="MediumPurple" Clicked="EditToDoItem"/> 
+                <Button x:Name="cancelBtn" IsVisible="False" Text="Cancel Edit" TextColor="White" BackgroundColor="LightCoral" Clicked="CancelEdit"/> 
+                
+                <Label x:Name="listTitle" Text="" TextColor="White" HorizontalTextAlignment="Center"/>
+                
+                    <ListView x:Name="todoLV" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" HasUnevenRows="False"
+                              SeparatorVisibility="Default" BackgroundColor="#101014" ItemSelected="TodoLV_OnItemSelected"
+                              ItemTapped="todoLV_ItemTapped">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid VerticalOptions="FillAndExpand" RowSpacing="5" HorizontalOptions="FillAndExpand" Margin="10,0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="7*" />
+                                            <ColumnDefinition Width="3*" />
+                                        </Grid.ColumnDefinitions>
+                                            
+                                        <Label Grid.Row="0" Grid.Column="0" LineBreakMode="TailTruncation" FontSize="16" TextColor="White"
+                                               Text="{Binding title}" VerticalOptions="Center" HorizontalOptions="Start"/>
+                                        <Label Grid.Row="1" Grid.Column="0" LineBreakMode="TailTruncation" FontSize="10" TextColor="LightGray"
+                                               Text="{Binding detail}" VerticalOptions="Center" HorizontalOptions="Start"/>
+                                        <Button Text="Delete" TextColor="White" BackgroundColor="LightCoral" ClassId="{Binding id}" 
+                                                Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Clicked="DeleteToDoItem"/>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

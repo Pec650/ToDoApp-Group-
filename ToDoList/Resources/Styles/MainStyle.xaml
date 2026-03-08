@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    
+    <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="Beige" />
+    </Style>
+    
+    <Style TargetType="VerticalStackLayout">
+        <Setter Property="VerticalOptions" Value="Center"></Setter>
+        <Setter Property="HorizontalOptions" Value="Center"></Setter>
+    </Style>
+    
+    <Style TargetType="Border">
+        <Setter Property="Stroke" Value="Gray"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+    </Style>
+    
+    <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="Black"></Setter>
+        <Setter Property="PlaceholderColor" Value="Gray"></Setter>
+        <Setter Property="BackgroundColor" Value="Transparent"></Setter>
+    </Style>
+    
+    <Style TargetType="Button">
+        <Setter Property="TextColor" Value="FloralWhite"></Setter>
+        <Setter Property="BackgroundColor" Value="CornflowerBlue"></Setter>
+    </Style>
+    
+    <Style x:Key="SubmitBtn" TargetType="Button">
+        <Setter Property="TextColor" Value="FloralWhite"></Setter>
+        <Setter Property="BackgroundColor" Value="DarkSlateBlue"></Setter>
+    </Style>
+    
+</ResourceDictionary>    

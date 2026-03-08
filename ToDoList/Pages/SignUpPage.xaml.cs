@@ -1,0 +1,99 @@
+﻿using System.Text.RegularExpressions;
+
+namespace ToDoList.Pages;
+
+public partial class SignUpPage
+{
+    public SignUpPage()
+    {
+        InitializeComponent();
+    }
+
+    private void SubmitSignUp(object? sender, EventArgs e)
+    {
+        if (IsEmptyInput(UsernameInput.Text) || IsEmptyInput(EmailInput.Text) ||
+            IsEmptyInput(PasswordInput.Text) || IsEmptyInput(ConfirmPassInput.Text))
+        {
+            ShowError("Please input all fields");
+            return;
+        }
+
+        if (!IsValidEmail(EmailInput.Text))
+        {
+            ShowError("Invalid email address");
+            return;
+        }
+
+        if (!IsValidPassword(PasswordInput.Text))
+        {
+            return;
+        }
+
+        if (!String.Equals(PasswordInput.Text, ConfirmPassInput.Text))
+        {
+            ShowError("Passwords do not match");
+            return;
+        }
+        
+        RemoveError();
+
+        Navigation.PushAsync(new ToDoPage());
+    }
+
+    private void GoToSignIn(object? sender, EventArgs e)
+    {
+        Navigation.PushAsync(new SignInPage());
+    }
+    
+    private bool IsEmptyInput(String input)
+    {
+        return String.IsNullOrWhiteSpace(input);
+    }
+
+    private bool IsValidEmail(String email)
+    {
+        return Regex.IsMatch(email,
+            @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z",
+            RegexOptions.IgnoreCase);
+    }
+
+    private bool IsValidPassword(String password)
+    {
+        if (password.Length < 8 || password.Length > 16)
+        {
+            ShowError("Password must be 8-16 letters");
+            return false;
+        }
+
+        if (!password.Any(char.IsLetterOrDigit))
+        {
+            ShowError("Password must have a digit [0-9]");
+            return false;
+        }
+
+        if (!password.Any(char.IsLower))
+        {
+            ShowError("Password must have a lowercase [a-z]");
+            return false;
+        }
+        
+        if (!password.Any(char.IsUpper))
+        {
+            ShowError("Password must have a uppercase [A-Z]");
+            return false;
+        }
+
+        return true;
+    }
+
+    private void ShowError(String errorMsg)
+    {
+        InputError.Text = errorMsg;
+        InputError.IsVisible = true;
+    }
+    
+    private void RemoveError()
+    {
+        InputError.IsVisible = false;
+    }
+}

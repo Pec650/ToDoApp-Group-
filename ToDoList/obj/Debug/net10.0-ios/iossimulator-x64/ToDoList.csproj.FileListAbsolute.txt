@@ -1,0 +1,956 @@
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.runtimeconfig.json
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.pdb
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Controls.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Xaml.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Essentials.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ca\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\cs\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\da\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\de\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\el\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\es\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\fi\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\fr\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\he\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hi\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hr\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hu\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\id\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\it\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ja\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ko\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ms\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\nb\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\nl\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pl\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pt\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ro\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ru\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\sk\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\sv\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\th\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\tr\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\uk\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\vi\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.CSharp.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Win32.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Win32.Registry.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.AppContext.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Buffers.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Concurrent.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Immutable.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.NonGeneric.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Specialized.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.Annotations.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.DataAnnotations.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.TypeConverter.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Configuration.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Console.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Core.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.Common.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.DataSetExtensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Contracts.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Debug.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Process.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.StackTrace.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Tools.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.TraceSource.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Tracing.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Drawing.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Drawing.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Dynamic.Runtime.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Formats.Asn1.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Formats.Tar.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.Calendars.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.Brotli.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.FileSystem.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.ZipFile.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.Watcher.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.IsolatedStorage.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.MemoryMappedFiles.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipelines.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipes.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipes.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.AsyncEnumerable.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Expressions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Parallel.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Queryable.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Memory.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Http.Json.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Http.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.HttpListener.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Mail.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.NameResolution.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.NetworkInformation.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Ping.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Quic.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Requests.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Security.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.ServerSentEvents.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.ServicePoint.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Sockets.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebClient.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebHeaderCollection.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebProxy.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebSockets.Client.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebSockets.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Numerics.Vectors.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Numerics.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ObjectModel.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.DataContractSerialization.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Uri.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Xml.Linq.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Xml.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.DispatchProxy.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.Lightweight.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Metadata.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.TypeExtensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.Reader.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.ResourceManager.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.Writer.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Handles.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.JavaScript.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Intrinsics.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Loader.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Numerics.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Formatters.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Json.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Xml.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Claims.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Cng.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Csp.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Encoding.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.OpenSsl.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Principal.Windows.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Principal.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.SecureString.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ServiceModel.Web.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ServiceProcess.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.CodePages.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encodings.Web.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Json.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.RegularExpressions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Channels.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Overlapped.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Dataflow.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Parallel.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Thread.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.ThreadPool.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Timer.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Transactions.Local.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Transactions.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ValueTuple.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Web.HttpUtility.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Web.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Windows.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.Linq.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.ReaderWriter.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.Serialization.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XDocument.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XPath.XDocument.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XPath.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XmlDocument.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XmlSerializer.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\WindowsBase.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\mscorlib.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\netstandard.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.iOS.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.CoreLib.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Globalization.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Globalization.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Net.Security.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Net.Security.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlicommon.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlidec.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlienc.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmonosgen-2.0.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmonosgen-2.0.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.iOS.registrar.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libextension-dotnet.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-debug.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot-debug.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet.a
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.AssemblyReference.cache
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\partialappmanifest\_PartialAppManifests.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\unpack\Microsoft.Maui.Essentials\BundleResource\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.inputs
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauifont.inputs
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauisplash.inputs
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauisplash.stamp
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.stamp
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.outputs
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauifont.stamp
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_BundleResourceWithLogicalName.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_ProcessedImageAssetsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\copySceneKitAssets\_ProcessedSceneKitAssetsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\collada\_ProcessedColladaAssetsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\atlas\_ProcessedTextureAtlasesPath.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\coremlc\_PartialAppManifest.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\_ProcessedBundleResourcesPath.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\_ProcessedContentPath.items
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.AssemblyInfoInputs.cache
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.AssemblyInfo.cs
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.sourcelink.json
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\XamlC.stamp
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.Up2Date
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\refint\ToDoList.dll
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.pdb
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.genruntimeconfig.cache
+C:\Users\Rick Bryson\Downloads\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ref\ToDoList.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.runtimeconfig.json
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.pdb
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Debug.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Controls.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Xaml.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Essentials.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ca\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\cs\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\da\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\de\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\el\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\es\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\fi\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\fr\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\he\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hi\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hr\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hu\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\id\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\it\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ja\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ko\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ms\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\nb\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\nl\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pl\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pt\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ro\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ru\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\sk\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\sv\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\th\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\tr\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\uk\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\vi\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.CSharp.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Win32.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Win32.Registry.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.AppContext.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Buffers.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Concurrent.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Immutable.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.NonGeneric.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Specialized.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.Annotations.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.DataAnnotations.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.EventBasedAsync.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.TypeConverter.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Configuration.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Console.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Core.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.Common.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.DataSetExtensions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Contracts.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Debug.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.DiagnosticSource.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.FileVersionInfo.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Process.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.StackTrace.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Tools.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.TraceSource.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Tracing.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Drawing.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Drawing.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Dynamic.Runtime.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Formats.Asn1.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Formats.Tar.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.Calendars.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.Extensions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.Brotli.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.FileSystem.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.ZipFile.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.AccessControl.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.DriveInfo.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.Watcher.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.IsolatedStorage.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.MemoryMappedFiles.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipelines.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipes.AccessControl.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipes.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.UnmanagedMemoryStream.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.AsyncEnumerable.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Expressions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Parallel.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Queryable.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Memory.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Http.Json.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Http.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.HttpListener.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Mail.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.NameResolution.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.NetworkInformation.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Ping.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Quic.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Requests.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Security.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.ServerSentEvents.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.ServicePoint.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Sockets.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebClient.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebHeaderCollection.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebProxy.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebSockets.Client.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebSockets.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Numerics.Vectors.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Numerics.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ObjectModel.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.DataContractSerialization.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Uri.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Xml.Linq.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Xml.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.DispatchProxy.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.ILGeneration.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.Lightweight.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Extensions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Metadata.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.TypeExtensions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.Reader.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.ResourceManager.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.Writer.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Extensions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Handles.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Intrinsics.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Loader.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Numerics.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Formatters.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Json.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Xml.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.AccessControl.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Claims.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Algorithms.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Cng.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Csp.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Encoding.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.OpenSsl.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Primitives.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.X509Certificates.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Principal.Windows.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Principal.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.SecureString.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ServiceModel.Web.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ServiceProcess.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.CodePages.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.Extensions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encodings.Web.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Json.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.RegularExpressions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.AccessControl.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Channels.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Overlapped.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Dataflow.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Extensions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Parallel.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Thread.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.ThreadPool.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Timer.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Transactions.Local.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Transactions.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ValueTuple.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Web.HttpUtility.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Web.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Windows.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.Linq.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.ReaderWriter.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.Serialization.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XDocument.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XPath.XDocument.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XPath.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XmlDocument.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XmlSerializer.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\WindowsBase.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\mscorlib.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\netstandard.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.iOS.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.CoreLib.dll
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Globalization.Native.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Globalization.Native.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Native.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Native.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Net.Security.Native.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Net.Security.Native.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlicommon.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlidec.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlienc.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger-stub-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-stub-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload-stub-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-stub-static.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmonosgen-2.0.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmonosgen-2.0.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.iOS.registrar.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libextension-dotnet.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-debug.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot-debug.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet.a
+D:\ToDoListApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.AssemblyReference.cache
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\partialappmanifest\_PartialAppManifests.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\unpack\Microsoft.Maui.Essentials\BundleResource\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.inputs
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauifont.inputs
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauisplash.inputs
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauisplash.stamp
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.stamp
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.outputs
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauifont.stamp
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_BundleResourceWithLogicalName.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_ProcessedImageAssetsPath.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\copySceneKitAssets\_ProcessedSceneKitAssetsPath.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\collada\_ProcessedColladaAssetsPath.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\atlas\_ProcessedTextureAtlasesPath.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\coremlc\_PartialAppManifest.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\coremlc\_BundleResourceWithLogicalName.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\_ProcessedBundleResourcesPath.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\_ProcessedContentPath.items
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.AssemblyInfoInputs.cache
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.AssemblyInfo.cs
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.CoreCompileInputs.cache
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.sourcelink.json
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\XamlC.stamp
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.Up2Date
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.dll
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\refint\ToDoList.dll
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.pdb
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.genruntimeconfig.cache
+D:\ToDoListApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ref\ToDoList.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.runtimeconfig.json
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ToDoList.pdb
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Controls.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Xaml.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Essentials.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ca\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\cs\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\da\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\de\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\el\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\es\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\fi\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\fr\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\he\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hi\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hr\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\hu\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\id\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\it\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ja\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ko\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ms\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\nb\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\nl\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pl\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\pt\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ro\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\ru\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\sk\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\sv\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\th\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\tr\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\uk\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\vi\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.CSharp.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Win32.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Win32.Registry.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.AppContext.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Buffers.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Concurrent.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Immutable.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.NonGeneric.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.Specialized.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Collections.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.Annotations.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.DataAnnotations.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.TypeConverter.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ComponentModel.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Configuration.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Console.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Core.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.Common.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.DataSetExtensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Data.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Contracts.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Debug.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Process.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.StackTrace.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Tools.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.TraceSource.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Diagnostics.Tracing.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Drawing.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Drawing.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Dynamic.Runtime.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Formats.Asn1.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Formats.Tar.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.Calendars.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Globalization.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.Brotli.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.FileSystem.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.ZipFile.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Compression.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.Watcher.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.FileSystem.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.IsolatedStorage.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.MemoryMappedFiles.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipelines.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipes.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.Pipes.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.IO.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.AsyncEnumerable.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Expressions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Parallel.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.Queryable.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Linq.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Memory.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Http.Json.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Http.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.HttpListener.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Mail.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.NameResolution.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.NetworkInformation.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Ping.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Quic.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Requests.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Security.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.ServerSentEvents.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.ServicePoint.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.Sockets.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebClient.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebHeaderCollection.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebProxy.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebSockets.Client.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.WebSockets.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Net.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Numerics.Vectors.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Numerics.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ObjectModel.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.DataContractSerialization.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Uri.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Xml.Linq.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.Xml.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.DispatchProxy.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.Lightweight.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Emit.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Metadata.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.TypeExtensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Reflection.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.Reader.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.ResourceManager.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Resources.Writer.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Handles.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.JavaScript.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.InteropServices.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Intrinsics.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Loader.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Numerics.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Formatters.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Json.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.Xml.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.Serialization.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Runtime.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Claims.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Cng.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Csp.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Encoding.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.OpenSsl.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.Primitives.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Cryptography.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Principal.Windows.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.Principal.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.SecureString.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Security.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ServiceModel.Web.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ServiceProcess.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.CodePages.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encoding.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Encodings.Web.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.Json.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Text.RegularExpressions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.AccessControl.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Channels.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Overlapped.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Dataflow.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Extensions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.Parallel.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Tasks.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Thread.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.ThreadPool.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.Timer.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Threading.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Transactions.Local.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Transactions.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.ValueTuple.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Web.HttpUtility.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Web.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Windows.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.Linq.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.ReaderWriter.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.Serialization.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XDocument.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XPath.XDocument.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XPath.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XmlDocument.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.XmlSerializer.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Xml.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\WindowsBase.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\mscorlib.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\netstandard.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.iOS.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\System.Private.CoreLib.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Globalization.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Globalization.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Net.Security.Native.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Net.Security.Native.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlicommon.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlidec.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libbrotlienc.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-debugger.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-hot_reload.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-stub-static.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmono-component-marshal-ilgen.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmonosgen-2.0.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libmonosgen-2.0.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.iOS.registrar.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libextension-dotnet.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-debug.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot-debug.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet.a
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\bin\Debug\net10.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.AssemblyReference.cache
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\partialappmanifest\_PartialAppManifests.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\unpack\Microsoft.Maui.Essentials\BundleResource\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.inputs
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauifont.inputs
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauisplash.inputs
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauisplash.stamp
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.stamp
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.outputs
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\mauifont.stamp
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_BundleResourceWithLogicalName.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\actool\_ProcessedImageAssetsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\copySceneKitAssets\_ProcessedSceneKitAssetsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\collada\_ProcessedColladaAssetsPath.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\atlas\_ProcessedTextureAtlasesPath.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\coremlc\_PartialAppManifest.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\_ProcessedBundleResourcesPath.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\_ProcessedContentPath.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.AssemblyInfoInputs.cache
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.AssemblyInfo.cs
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\XamlC.stamp
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.csproj.Up2Date
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\refint\ToDoList.dll
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.pdb
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ToDoList.genruntimeconfig.cache
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ref\ToDoList.dll
