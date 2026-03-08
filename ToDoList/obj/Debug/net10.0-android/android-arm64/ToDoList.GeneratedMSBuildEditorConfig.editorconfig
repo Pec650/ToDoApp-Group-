@@ -20,13 +20,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ToDoList
-build_property.ProjectDir = C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoList\
+build_property.ProjectDir = C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/App.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -36,7 +36,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/AppShell.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -46,7 +46,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/Pages/SignInPage.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/Pages/SignInPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.Pages.SignInPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SignInPage.xaml
@@ -56,7 +56,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/Pages/SignUpPage.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/Pages/SignUpPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.Pages.SignUpPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SignUpPage.xaml
@@ -66,7 +66,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/Pages/ToDoPage.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/Pages/ToDoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.Pages.ToDoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ToDoPage.xaml
@@ -76,7 +76,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/Resources/Styles/Colors.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -86,7 +86,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/Resources/Styles/MainStyle.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/Resources/Styles/MainStyle.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.Resources.Styles.MainStyle.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\MainStyle.xaml
@@ -96,7 +96,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoList/Resources/Styles/Styles.xaml]
+[C:/Users/Rick Bryson/Downloads/ToDoApp/ToDoApp (Group)/ToDoList/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ToDoList.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
