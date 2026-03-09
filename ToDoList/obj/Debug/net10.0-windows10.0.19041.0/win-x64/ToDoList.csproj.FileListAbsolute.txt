@@ -2073,3 +2073,5 @@ C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-150.png
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-200.png
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\bin\Debug\net10.0-windows10.0.19041.0\win-x64\profile_image.scale-100.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\profile_image.scale-100.png

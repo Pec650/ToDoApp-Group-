@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <VerticalStackLayout Spacing="15" WidthRequest="250">
             
-            <Image Source="dotnet_bot.png" Height="50"></Image>
+            <Image Source="profile_image.png" HeightRequest="100" WidthRequest="100" Margin="0, 0, 0, 20"></Image>
             
             <Border>
                 <Entry x:Name="UsernameInput" Placeholder="Username" ReturnType="Next"></Entry>

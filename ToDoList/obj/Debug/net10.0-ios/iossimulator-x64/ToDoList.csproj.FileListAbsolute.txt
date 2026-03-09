@@ -1273,3 +1273,7 @@ C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_9FC1190864A0F6264AC786FB44BBAAE8A15D4F7D30DC753CE24423B83CA8104A@2x.png
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_9FC1190864A0F6264AC786FB44BBAAE8A15D4F7D30DC753CE24423B83CA8104A@3x.png
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_E7EA27A11E074CCBF92B9D31F8A2009BE003E782AC3D9A6991E0BEC5337E54A3.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_E7EA27A11E074CCBF92B9D31F8A2009BE003E782AC3D9A6991E0BEC5337E54A3@2x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_E7EA27A11E074CCBF92B9D31F8A2009BE003E782AC3D9A6991E0BEC5337E54A3@3x.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\profile_image.png
