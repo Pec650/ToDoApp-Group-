@@ -1,49 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:MauiApp1"
              x:Class="ToDoList.Pages.ToDoPage">
 
     <ScrollView>
-        <VerticalStackLayout Spacing="10" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <Grid VerticalOptions="Fill" HorizontalOptions="Fill">
             <VerticalStackLayout Padding="10" Spacing="10" Margin="0,0,0,10">
-                <Entry x:Name="titleEntry" Placeholder="Title" PlaceholderColor="LightGrey" TextColor="White" BackgroundColor="#101014" Keyboard="Text" ReturnType="Next" MaxLength="50"/>  
-                <Editor x:Name="detailsEditor" Placeholder="Details" PlaceholderColor="LightGrey" TextColor="White" BackgroundColor="#101014" MaxLength="240" Keyboard="Text" HeightRequest="100"/>
-                <Button x:Name="addBtn" IsVisible="True" Text="Add" TextColor="White" BackgroundColor="MediumPurple" Clicked="AddToDoItem"/> 
-                <Button x:Name="editBtn" IsVisible="False" Text="Edit" TextColor="White" BackgroundColor="MediumPurple" Clicked="EditToDoItem"/> 
-                <Button x:Name="cancelBtn" IsVisible="False" Text="Cancel Edit" TextColor="White" BackgroundColor="LightCoral" Clicked="CancelEdit"/> 
-                
-                <Label x:Name="listTitle" Text="" TextColor="White" HorizontalTextAlignment="Center"/>
-                
-                    <ListView x:Name="todoLV" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" HasUnevenRows="False"
-                              SeparatorVisibility="Default" BackgroundColor="#101014" ItemSelected="TodoLV_OnItemSelected"
-                              ItemTapped="todoLV_ItemTapped">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <ViewCell>
-                                    <Grid VerticalOptions="FillAndExpand" RowSpacing="5" HorizontalOptions="FillAndExpand" Margin="10,0">
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="*"/>
-                                            <RowDefinition Height="*"/>
-                                        </Grid.RowDefinitions>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="7*" />
-                                            <ColumnDefinition Width="3*" />
-                                        </Grid.ColumnDefinitions>
-                                            
-                                        <Label Grid.Row="0" Grid.Column="0" LineBreakMode="TailTruncation" FontSize="16" TextColor="White"
-                                               Text="{Binding title}" VerticalOptions="Center" HorizontalOptions="Start"/>
-                                        <Label Grid.Row="1" Grid.Column="0" LineBreakMode="TailTruncation" FontSize="10" TextColor="LightGray"
-                                               Text="{Binding detail}" VerticalOptions="Center" HorizontalOptions="Start"/>
-                                        <Button Text="Delete" TextColor="White" BackgroundColor="LightCoral" ClassId="{Binding id}" 
-                                                Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Clicked="DeleteToDoItem"/>
-                                    </Grid>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                
+                <Image Source="dotnet_bot.png" Aspect="AspectFit" HeightRequest="150" Margin="0,10"/>
+
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                    <Label Text="Your To-Do List" FontSize="24" FontAttributes="Bold" TextColor="#06011F"/>
+                    <Button x:Name="editListTitleBtn" Text="Edit Title" TextColor="#06011F" BackgroundColor="LightBlue" Clicked="EditListTitle"/>
+                </HorizontalStackLayout>
+
+                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <Entry x:Name="titleEntry" Placeholder="Title" PlaceholderColor="#06011F"
+                       TextColor="#06011F" Keyboard="Text"
+                       ReturnType="Next" MaxLength="50"/>
+                </Border>
+
+                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <Editor x:Name="detailsEditor" Placeholder="Details" PlaceholderColor="#06011F"
+                            TextColor="#06011F" BackgroundColor="#B0B0E6" MaxLength="240"
+                            Keyboard="Text" HeightRequest="100"/>
+                </Border>
+
+                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <Button x:Name="addBtn" IsVisible="True" Text="Add" TextColor="#06011F"
+                        BackgroundColor="MediumPurple" Clicked="AddToDoItem"/>
+                </Border>
+
+                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#26A550" IsVisible="False">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <Button x:Name="editBtn" Text="Edit" TextColor="#082417" Clicked="EditToDoItem"/>
+                </Border>
+
+                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <Button x:Name="cancelBtn" IsVisible="False" Text="Cancel Edit" TextColor="#58241E"
+                            BackgroundColor="LightCoral" Clicked="CancelEdit"/>
+                </Border>
+
+                <Label x:Name="listTitle" Text="" TextColor="#06011F" HorizontalTextAlignment="Center"/>
+
+                <CollectionView x:Name="todoCV" SelectionMode="Single"
+                                SelectionChanged="TodoCV_SelectionChanged">
+                    <CollectionView.EmptyView>
+                        <Label Text="Nothing to show yet" 
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            TextColor="Gray"/>
+                    </CollectionView.EmptyView>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:ToDoClass">
+                            <Grid RowSpacing="5" HorizontalOptions="Fill" Margin="10,5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="7*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Row="0" Grid.Column="0" LineBreakMode="TailTruncation"
+                                       FontSize="16" TextColor="#06011F"
+                                       Text="{Binding item_name}" VerticalOptions="Center"
+                                       HorizontalOptions="Start"/>
+                                <Label Grid.Row="1" Grid.Column="0" LineBreakMode="TailTruncation"
+                                       FontSize="10" TextColor="#06011F"
+                                       Text="{Binding item_description}" VerticalOptions="Center"
+                                       HorizontalOptions="Start"/>
+                                <Button Text="Delete" TextColor="#58241E" BackgroundColor="LightCoral"
+                                        ClassId="{Binding item_id}"
+                                        Grid.Row="0" Grid.RowSpan="2" Grid.Column="1"
+                                        Clicked="DeleteToDoItem"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
             </VerticalStackLayout>
-        </VerticalStackLayout>
+        </Grid>
     </ScrollView>
 
 </ContentPage>

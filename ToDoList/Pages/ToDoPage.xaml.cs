@@ -1,20 +1,28 @@
 ﻿namespace ToDoList.Pages;
 
 using System.Collections.ObjectModel;
-using ToDoClass;
+using System.Linq;
+using MauiApp1;
 
 public partial class ToDoPage : ContentPage
 {
     public ObservableCollection<ToDoClass> ToDoItems { get; set; }
-    
-    private ToDoClass selectedItem;
+
+    private static int _nextId = 1;
+    private ToDoClass? selectedItem;  // ← nullable to fix CS8618
 
     public ToDoPage()
     {
         InitializeComponent();
         ToDoItems = new ObservableCollection<ToDoClass>();
-        todoLV.ItemsSource = ToDoItems;
+        todoCV.ItemsSource = ToDoItems;
         updateTitle();
+    }
+
+    private void EditListTitle(object sender, EventArgs e)
+    {
+        if (string.IsNullOrWhiteSpace(listTitle.Text)) return;
+        listTitle.Text = titleEntry.Text;
     }
 
     private void AddToDoItem(object sender, EventArgs e)
@@ -23,9 +31,11 @@ public partial class ToDoPage : ContentPage
 
         var newItem = new ToDoClass
         {
-            id = ToDoItems.Count + 1,
-            title = titleEntry.Text,
-            detail = detailsEditor.Text
+            item_id = _nextId++,
+            item_name = titleEntry.Text,
+            item_description = detailsEditor.Text ?? string.Empty,
+            status = string.Empty,
+            user_id = 0
         };
 
         ToDoItems.Add(newItem);
@@ -36,15 +46,13 @@ public partial class ToDoPage : ContentPage
     private void DeleteToDoItem(object sender, EventArgs e)
     {
         var button = (Button)sender;
-        var itemToDelete = ToDoItems.FirstOrDefault(x => x.id.ToString() == button.ClassId);
+        var itemToDelete = ToDoItems.FirstOrDefault(x => x.item_id.ToString() == button.ClassId);
 
         if (itemToDelete != null)
         {
             if (selectedItem == itemToDelete)
-            {
                 CancelEdit(sender, e);
-            }
-            
+
             ToDoItems.Remove(itemToDelete);
             updateTitle();
         }
@@ -54,9 +62,8 @@ public partial class ToDoPage : ContentPage
     {
         if (selectedItem != null)
         {
-            selectedItem.title = titleEntry.Text;
-            selectedItem.detail = detailsEditor.Text;
-
+            selectedItem.item_name = titleEntry.Text ?? string.Empty;
+            selectedItem.item_description = detailsEditor.Text ?? string.Empty;
             CancelEdit(sender, e);
         }
     }
@@ -65,41 +72,30 @@ public partial class ToDoPage : ContentPage
     {
         selectedItem = null;
         ClearForm();
-        
+
         addBtn.IsVisible = true;
         editBtn.IsVisible = false;
         cancelBtn.IsVisible = false;
+
+        todoCV.SelectedItem = null;  // ← fixes CS8625 (no null literal on non-nullable)
     }
 
-    private void TodoLV_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+    private void TodoCV_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        if (e.SelectedItem == null) return;
+        if (e.CurrentSelection.FirstOrDefault() is not ToDoClass item) return;
 
-        selectedItem = (ToDoClass)e.SelectedItem;
-
-        titleEntry.Text = selectedItem.title;
-        detailsEditor.Text = selectedItem.detail;
+        selectedItem = item;
+        titleEntry.Text = selectedItem.item_name;
+        detailsEditor.Text = selectedItem.item_description;
 
         addBtn.IsVisible = false;
         editBtn.IsVisible = true;
         cancelBtn.IsVisible = true;
     }
 
-    private void todoLV_ItemTapped(object sender, ItemTappedEventArgs e)
-    {
-        ((ListView)sender).SelectedItem = null;
-    }
-
     private void updateTitle()
     {
-        if (ToDoItems.Count == 0)
-        {
-            listTitle.Text = "To-Do List is Empty...";
-        }
-        else
-        {
-            listTitle.Text = "To-Do List";
-        }
+        listTitle.Text = ToDoItems.Count == 0 ? "To-Do List is Empty..." : "To-Do List";
     }
 
     private void ClearForm()

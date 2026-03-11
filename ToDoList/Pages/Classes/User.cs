@@ -1,4 +1,4 @@
-﻿namespace ToDoClass;
+﻿namespace MauiApp1;
 
 public class User
 {

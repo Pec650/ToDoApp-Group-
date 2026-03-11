@@ -1,43 +1,56 @@
-﻿namespace ToDoClass;
-using System;
+﻿namespace MauiApp1;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-public class ToDoClass: INotifyPropertyChanged
+public class ToDoClass : INotifyPropertyChanged
 {
     public ToDoClass()
     {
+        _item_name = string.Empty;
+        _item_description = string.Empty;
+        _status = string.Empty;
     }
-    int _id { get; set; }
-    string _title { get; set; }
-    string _detail { get; set; }
-   
-    public int id { 
-        get { return _id; } 
-        set { _id = value; OnPropertyChanged(nameof(id));} 
-    }
-    
-    public string title { 
-        get { return _title; } 
-        set { _title = value; OnPropertyChanged(nameof(title));} 
-    }
-    public string detail { 
-        get { return _detail; } 
-        set { _detail = value; OnPropertyChanged(nameof(detail));} 
-    }
-    
-    public event PropertyChangedEventHandler? PropertyChanged;
 
-    protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+    int _item_id { get; set; }
+    string _item_name { get; set; }
+    string _item_description { get; set; }
+    string _status { get; set; }
+    int _user_id { get; set; }
+
+    public int item_id
+    {
+        get { return _item_id; }
+        set { _item_id = value; OnPropertyChanged(nameof(item_id)); }
+    }
+
+    public string item_name
+    {
+        get { return _item_name; }
+        set { _item_name = value; OnPropertyChanged(nameof(item_name)); }
+    }
+
+    public string item_description
+    {
+        get { return _item_description; }
+        set { _item_description = value; OnPropertyChanged(nameof(item_description)); }
+    }
+
+    public string status
+    {
+        get { return _status; }
+        set { _status = value; OnPropertyChanged(nameof(status)); }
+    }
+
+    public int user_id
+    {
+        get { return _user_id; }
+        set { _user_id = value; OnPropertyChanged(nameof(user_id)); }
+    }
+
+    public event PropertyChangedEventHandler? PropertyChanged;  // ← nullable to match interface
+
+    protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "")
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
-
-    protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null)
-    {
-        if (EqualityComparer<T>.Default.Equals(field, value)) return false;
-        field = value;
-        OnPropertyChanged(propertyName);
-        return true;
     }
 }
