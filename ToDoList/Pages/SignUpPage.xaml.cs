@@ -9,7 +9,7 @@ public partial class SignUpPage
         InitializeComponent();
     }
 
-    private void SubmitSignUp(object? sender, EventArgs e)
+    private async void SubmitSignUp(object? sender, EventArgs e)
     {
         if (IsEmptyInput(UsernameInput.Text) || IsEmptyInput(EmailInput.Text) ||
             IsEmptyInput(PasswordInput.Text) || IsEmptyInput(ConfirmPassInput.Text))
@@ -37,7 +37,7 @@ public partial class SignUpPage
         
         RemoveError();
 
-        Navigation.PushAsync(new ToDoPage());
+        await Shell.Current.GoToAsync("//main");
     }
 
     private void GoToSignIn(object? sender, EventArgs e)

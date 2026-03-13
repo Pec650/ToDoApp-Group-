@@ -13,8 +13,12 @@
     <ShellContent
         ContentTemplate="{DataTemplate local:SignUpPage}"
         Route="SignUpPage" />
-    <ShellContent
-        ContentTemplate="{DataTemplate local:ToDoPage}"
-        Route="ToDoPage" />
+
+    <TabBar Route="main">
+        <Tab Title="To-Do">
+            <ShellContent ContentTemplate="{DataTemplate local:ToDoPage}" Route="ToDoPage" />
+        </Tab>
+        <!-- Add more tabs here later -->
+    </TabBar>
 
 </Shell>
