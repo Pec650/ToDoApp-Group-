@@ -18,7 +18,9 @@
         <Tab Title="To-Do">
             <ShellContent ContentTemplate="{DataTemplate local:ToDoPage}" Route="ToDoPage" />
         </Tab>
-        <!-- Add more tabs here later -->
+        <Tab Title="Completed">
+             <ShellContent ContentTemplate="{DataTemplate local:CompletedPage}" Route="CompletedPage" />
+        </Tab>
     </TabBar>
 
 </Shell>
