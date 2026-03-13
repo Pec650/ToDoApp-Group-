@@ -6,15 +6,19 @@
 
     <ScrollView>
         <Grid VerticalOptions="Fill" HorizontalOptions="Fill">
-            <VerticalStackLayout Padding="10" Spacing="10" Margin="0,0,0,10">
-                <Image Source="dotnet_bot.png" Aspect="AspectFit" HeightRequest="150" Margin="0,10"/>
+            <VerticalStackLayout Padding="10" Spacing="10" Margin="0,0,0,10" VerticalOptions="Start" HorizontalOptions="Fill">
 
                 <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
                     <Label Text="Your To-Do List" FontSize="24" FontAttributes="Bold" TextColor="#06011F"/>
-                    <Button x:Name="editListTitleBtn" Text="Edit Title" TextColor="#06011F" BackgroundColor="LightBlue" Clicked="EditListTitle"/>
+                    <Border x:Name="editListTitleBtn" Stroke="#2E8D75" StrokeThickness="3" BackgroundColor="#4DE0C8" Padding="0" Margin="0,0,0,10" HorizontalOptions="Center">
+                        <Button TextColor="#06011F" ImageSource="edit.svg" ContentLayout="40, 40" BackgroundColor="Transparent" Clicked="EditListTitle" WidthRequest="30" HeightRequest="30"/>
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="5" />
+                        </Border.StrokeShape>
+                    </Border>
                 </HorizontalStackLayout>
 
-                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                <Border x:Name="titleBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="5" />
                     </Border.StrokeShape>
@@ -23,7 +27,7 @@
                        ReturnType="Next" MaxLength="50"/>
                 </Border>
 
-                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                <Border x:Name="detailsBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="5" />
                     </Border.StrokeShape>
@@ -32,27 +36,34 @@
                             Keyboard="Text" HeightRequest="100"/>
                 </Border>
 
-                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                <Border x:Name="addBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2" IsVisible="True">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="5" />
                     </Border.StrokeShape>
-                    <Button x:Name="addBtn" IsVisible="True" Text="Add" TextColor="#06011F"
-                        BackgroundColor="MediumPurple" Clicked="AddToDoItem"/>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AddToDoItem"/>
+                    </Border.GestureRecognizers>
+                    <Label Text="Add" TextColor="#06011F" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Border>
 
-                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#26A550" IsVisible="False">
+                <Border x:Name="editBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#26A550" IsVisible="False">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="5" />
                     </Border.StrokeShape>
-                    <Button x:Name="editBtn" Text="Edit" TextColor="#082417" Clicked="EditToDoItem"/>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="EditToDoItem"/>
+                    </Border.GestureRecognizers>
+                    <Label Text="Edit" TextColor="#082417" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Border>
 
-                <Border Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+                <Border x:Name="cancelBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2" IsVisible="False">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="5" />
                     </Border.StrokeShape>
-                    <Button x:Name="cancelBtn" IsVisible="False" Text="Cancel Edit" TextColor="#58241E"
-                            BackgroundColor="LightCoral" Clicked="CancelEdit"/>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="CancelEdit"/>
+                    </Border.GestureRecognizers>
+                    <Label Text="Cancel Edit" TextColor="#58241E" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Border>
 
                 <Label x:Name="listTitle" Text="" TextColor="#06011F" HorizontalTextAlignment="Center"/>
@@ -74,6 +85,7 @@
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="7*"/>
+                                    <!-- original proportion; star sizing will share space with buttons dynamically -->
                                     <ColumnDefinition Width="3*"/>
                                 </Grid.ColumnDefinitions>
 
@@ -85,10 +97,30 @@
                                        FontSize="10" TextColor="#06011F"
                                        Text="{Binding item_description}" VerticalOptions="Center"
                                        HorizontalOptions="Start"/>
-                                <Button Text="Delete" TextColor="#58241E" BackgroundColor="LightCoral"
-                                        ClassId="{Binding item_id}"
-                                        Grid.Row="0" Grid.RowSpan="2" Grid.Column="1"
-                                        Clicked="DeleteToDoItem"/>
+                                <!-- reduce width and split into two buttons -->
+                                <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" HorizontalOptions="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Border Grid.Column="0" Stroke="#881B1B" StrokeThickness="3" BackgroundColor="#DD4242" Margin="0,0,1,0" HorizontalOptions="Fill">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="5" />
+                                        </Border.StrokeShape>
+                                        <Button Text="Delete" TextColor="#58241E" BackgroundColor="Transparent"
+                                            ClassId="{Binding item_id}"
+                                            Clicked="DeleteToDoItem"/>
+                                    </Border>
+
+                                    <Border Grid.Column="1" Grid.RowSpan="2" Stroke="#4B9170" StrokeThickness="3" BackgroundColor="#67F083" Margin="1,0,0,0" HorizontalOptions="Fill">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="5" />
+                                        </Border.StrokeShape>
+                                        <!-- second button placeholder; replace Text and handler as needed -->
+                                        <Button Text="Other" TextColor="#58241E" BackgroundColor="Transparent"/>
+                                    </Border>
+                                </Grid>
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

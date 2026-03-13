@@ -73,9 +73,9 @@ public partial class ToDoPage : ContentPage
         selectedItem = null;
         ClearForm();
 
-        addBtn.IsVisible = true;
-        editBtn.IsVisible = false;
-        cancelBtn.IsVisible = false;
+        addBorder.IsVisible = true;
+        editBorder.IsVisible = false;
+        cancelBorder.IsVisible = false;
 
         todoCV.SelectedItem = null;  // ← fixes CS8625 (no null literal on non-nullable)
     }
@@ -88,9 +88,9 @@ public partial class ToDoPage : ContentPage
         titleEntry.Text = selectedItem.item_name;
         detailsEditor.Text = selectedItem.item_description;
 
-        addBtn.IsVisible = false;
-        editBtn.IsVisible = true;
-        cancelBtn.IsVisible = true;
+        addBorder.IsVisible = false;
+        editBorder.IsVisible = true;
+        cancelBorder.IsVisible = true;
     }
 
     private void updateTitle()
