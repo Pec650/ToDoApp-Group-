@@ -1596,3 +1596,8 @@ C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\stamp\_GenerateJavaStubs.stamp
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\resizetizer\r\drawable-xxxhdpi\edit.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\resizetizer\r\drawable-xxhdpi\edit.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\resizetizer\r\drawable-xhdpi\edit.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\resizetizer\r\drawable-hdpi\edit.png
+C:\Users\Rick Bryson\Downloads\ToDoApp\ToDoApp (Group)\ToDoList\obj\Debug\net10.0-android\android-x64\resizetizer\r\drawable-mdpi\edit.png

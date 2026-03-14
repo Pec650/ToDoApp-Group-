@@ -10,6 +10,7 @@
     <ShellContent
         ContentTemplate="{DataTemplate local:SignInPage}"
         Route="SignInPage" />
+    
     <ShellContent
         ContentTemplate="{DataTemplate local:SignUpPage}"
         Route="SignUpPage" />
@@ -20,6 +21,9 @@
         </Tab>
         <Tab Title="Completed">
              <ShellContent ContentTemplate="{DataTemplate local:CompletedPage}" Route="CompletedPage" />
+        </Tab>
+        <Tab Title="Profile">
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" Route="ProfilePage" />
         </Tab>
     </TabBar>
 

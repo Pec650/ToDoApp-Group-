@@ -27,10 +27,17 @@ public partial class SignInPage
             return;
         }
         
-        ShowError("Incorrect username or password");
+        RemoveError();
+        GoToMain();
         return;
         
-        RemoveError();
+        ShowError("Incorrect username or password");
+        return;
+    }
+    
+    private async void GoToMain()
+    {
+        await Shell.Current.GoToAsync("//main");
     }
 
     private void GoToSignUp(object? sender, EventArgs e)
