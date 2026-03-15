@@ -1,80 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:models="clr-namespace:MauiApp1"
+             xmlns:models="clr-namespace:ToDoList.Pages"
              x:Class="ToDoList.Pages.ToDoPage">
 
-    <ScrollView>
-        <Grid VerticalOptions="Fill" HorizontalOptions="Fill">
-            <VerticalStackLayout Padding="10" Spacing="10" Margin="0,0,0,10" VerticalOptions="Start" HorizontalOptions="Fill">
+    <Grid>
 
-                <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
-                    <Label Text="Your To-Do List" FontSize="24" FontAttributes="Bold" TextColor="#06011F"/>
-                    <Border x:Name="editListTitleBtn" Stroke="#2E8D75" StrokeThickness="3" BackgroundColor="#4DE0C8" Padding="0" Margin="0,0,0,10" HorizontalOptions="Center">
-                        <Button TextColor="#06011F" ImageSource="edit.svg" ContentLayout="40, 40" BackgroundColor="Transparent" Clicked="EditListTitle" WidthRequest="30" HeightRequest="30"/>
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="5" />
-                        </Border.StrokeShape>
-                    </Border>
-                </HorizontalStackLayout>
+        <!-- Main content -->
+        <Grid RowDefinitions="Auto,*" Padding="15">
 
-                <Border x:Name="titleBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
+            <!-- Header with editable title -->
+            <HorizontalStackLayout Grid.Row="0" Spacing="10"
+                                   HorizontalOptions="Center" Margin="0,10,0,10">
+                <Label x:Name="listTitle" Text="Your To-Do List"
+                       FontSize="24" FontAttributes="Bold" TextColor="#06011F"
+                       VerticalOptions="Center"/>
+                <Border Stroke="#2E8D75" StrokeThickness="3" BackgroundColor="#4DE0C8"
+                        Padding="0" VerticalOptions="Center">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <Entry x:Name="titleEntry" Placeholder="Title" PlaceholderColor="#06011F"
-                       TextColor="#06011F" Keyboard="Text"
-                       ReturnType="Next" MaxLength="50"/>
-                </Border>
-
-                <Border x:Name="detailsBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <Editor x:Name="detailsEditor" Placeholder="Details" PlaceholderColor="#06011F"
-                            TextColor="#06011F" BackgroundColor="#B0B0E6" MaxLength="240"
-                            Keyboard="Text" HeightRequest="100"/>
-                </Border>
-
-                <Border x:Name="addBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2" IsVisible="True">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
+                        <RoundRectangle CornerRadius="5"/>
                     </Border.StrokeShape>
                     <Border.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="AddToDoItem"/>
+                        <TapGestureRecognizer Tapped="EditListTitle"/>
                     </Border.GestureRecognizers>
-                    <Label Text="Add" TextColor="#06011F" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image Source="edit.svg" WidthRequest="28" HeightRequest="28" Margin="4"/>
                 </Border>
+            </HorizontalStackLayout>
 
-                <Border x:Name="editBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#26A550" IsVisible="False">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <Border.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="EditToDoItem"/>
-                    </Border.GestureRecognizers>
-                    <Label Text="Edit" TextColor="#082417" HorizontalOptions="Center" VerticalOptions="Center"/>
-                </Border>
-
-                <Border x:Name="cancelBorder" Stroke="#9B19A4" StrokeThickness="3" BackgroundColor="#9A9AE2" IsVisible="False">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <Border.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="CancelEdit"/>
-                    </Border.GestureRecognizers>
-                    <Label Text="Cancel Edit" TextColor="#58241E" HorizontalOptions="Center" VerticalOptions="Center"/>
-                </Border>
-
-                <Label x:Name="listTitle" Text="" TextColor="#06011F" HorizontalTextAlignment="Center"/>
-
-                <CollectionView x:Name="todoCV" SelectionMode="Single"
-                                SelectionChanged="TodoCV_SelectionChanged">
+            <!-- Task list -->
+            <ScrollView Grid.Row="1">
+                <CollectionView x:Name="todoCV" SelectionMode="None">
                     <CollectionView.EmptyView>
-                        <Label Text="Nothing to show yet" 
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            TextColor="Gray"/>
+                        <Label Text="Nothing to show yet"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               TextColor="Gray" Margin="0,40,0,0"/>
                     </CollectionView.EmptyView>
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="models:ToDoClass">
@@ -85,49 +45,62 @@
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="7*"/>
-                                    <!-- original proportion; star sizing will share space with buttons dynamically -->
                                     <ColumnDefinition Width="3*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <Label Grid.Row="0" Grid.Column="0" LineBreakMode="TailTruncation"
-                                       FontSize="16" TextColor="#06011F"
-                                       Text="{Binding item_name}" VerticalOptions="Center"
-                                       HorizontalOptions="Start"/>
-                                <Label Grid.Row="1" Grid.Column="0" LineBreakMode="TailTruncation"
-                                       FontSize="10" TextColor="#06011F"
-                                       Text="{Binding item_description}" VerticalOptions="Center"
-                                       HorizontalOptions="Start"/>
-                                <!-- reduce width and split into two buttons -->
+                                <Label Grid.Row="0" Grid.Column="0" FontSize="16"
+                                       TextColor="#06011F" Text="{Binding item_name}"
+                                       LineBreakMode="TailTruncation" VerticalOptions="Center"/>
+                                <Label Grid.Row="1" Grid.Column="0" FontSize="10"
+                                       TextColor="#06011F" Text="{Binding item_description}"
+                                       LineBreakMode="TailTruncation" VerticalOptions="Center"/>
+
                                 <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" HorizontalOptions="Center">
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
 
-                                    <Border Grid.Column="0" Stroke="#881B1B" StrokeThickness="3" BackgroundColor="#DD4242" Margin="0,0,1,0" HorizontalOptions="Fill">
+                                    <Border Grid.Column="0" Stroke="#881B1B" StrokeThickness="3"
+                                            BackgroundColor="#DD4242" Margin="0,0,1,0" HorizontalOptions="Fill">
                                         <Border.StrokeShape>
-                                            <RoundRectangle CornerRadius="5" />
+                                            <RoundRectangle CornerRadius="5"/>
                                         </Border.StrokeShape>
-                                        <Button Text="Delete" TextColor="#58241E" BackgroundColor="Transparent"
-                                            ClassId="{Binding item_id}"
-                                            Clicked="DeleteToDoItem"/>
+                                        <Button Text="Done" TextColor="#58241E" BackgroundColor="Transparent" 
+                                            ClassId="{Binding item_id}" Clicked="CompleteToDoItem"/>
                                     </Border>
 
-                                    <Border Grid.Column="1" Grid.RowSpan="2" Stroke="#4B9170" StrokeThickness="3" BackgroundColor="#67F083" Margin="1,0,0,0" HorizontalOptions="Fill">
+                                    <Border Grid.Column="1" Stroke="#4B9170" StrokeThickness="3"
+                                            BackgroundColor="#67F083" Margin="1,0,0,0" HorizontalOptions="Fill">
                                         <Border.StrokeShape>
-                                            <RoundRectangle CornerRadius="5" />
+                                            <RoundRectangle CornerRadius="5"/>
                                         </Border.StrokeShape>
-                                        <!-- second button placeholder; replace Text and handler as needed -->
-                                        <Button Text="Other" TextColor="#58241E" BackgroundColor="Transparent"/>
+                                        <Button Text="Edit" TextColor="#58241E" BackgroundColor="Transparent"
+                                                ClassId="{Binding item_id}" Clicked="EditToDoItem"/>
                                     </Border>
                                 </Grid>
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+            </ScrollView>
 
-            </VerticalStackLayout>
         </Grid>
-    </ScrollView>
+
+        <!-- FAB + button (floats over content, bottom right) -->
+        <Border WidthRequest="60" HeightRequest="60"
+                BackgroundColor="#4DE0C8" Stroke="#2E8D75" StrokeThickness="3"
+                HorizontalOptions="End" VerticalOptions="End" Margin="0,0,25,25">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="5"/>
+            </Border.StrokeShape>
+            <Border.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GoToNewTask"/>
+            </Border.GestureRecognizers>
+            <Label Text="+" FontSize="32" FontAttributes="Bold"
+                   TextColor="#06011F" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </Border>
+
+    </Grid>
 
 </ContentPage>

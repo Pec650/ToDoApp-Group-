@@ -1,4 +1,5 @@
-﻿namespace MauiApp1;
+namespace ToDoList.Pages;
+
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -47,7 +48,7 @@ public class ToDoClass : INotifyPropertyChanged
         set { _user_id = value; OnPropertyChanged(nameof(user_id)); }
     }
 
-    public event PropertyChangedEventHandler? PropertyChanged;  // ← nullable to match interface
+    public event PropertyChangedEventHandler? PropertyChanged;
 
     protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "")
     {

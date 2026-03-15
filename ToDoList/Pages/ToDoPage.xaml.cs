@@ -1,108 +1,58 @@
 ﻿namespace ToDoList.Pages;
 
-using System.Collections.ObjectModel;
 using System.Linq;
-using MauiApp1;
 
 public partial class ToDoPage : ContentPage
 {
-    public ObservableCollection<ToDoClass> ToDoItems { get; set; }
-
-    private static int _nextId = 1;
-    private ToDoClass? selectedItem;  // ← nullable to fix CS8618
-
     public ToDoPage()
     {
         InitializeComponent();
-        ToDoItems = new ObservableCollection<ToDoClass>();
-        todoCV.ItemsSource = ToDoItems;
-        updateTitle();
+        todoCV.ItemsSource = ToDoService.Items;
     }
 
-    private void EditListTitle(object sender, EventArgs e)
+    protected override void OnAppearing()
     {
-        if (string.IsNullOrWhiteSpace(listTitle.Text)) return;
-        listTitle.Text = titleEntry.Text;
+        base.OnAppearing();
+        UpdateTitle();
     }
 
-    private void AddToDoItem(object sender, EventArgs e)
+    private async void GoToNewTask(object sender, EventArgs e)
     {
-        if (string.IsNullOrWhiteSpace(titleEntry.Text)) return;
-
-        var newItem = new ToDoClass
-        {
-            item_id = _nextId++,
-            item_name = titleEntry.Text,
-            item_description = detailsEditor.Text ?? string.Empty,
-            status = string.Empty,
-            user_id = 0
-        };
-
-        ToDoItems.Add(newItem);
-        ClearForm();
-        updateTitle();
+        await Shell.Current.GoToAsync(nameof(NewTask));
     }
 
-    private void DeleteToDoItem(object sender, EventArgs e)
+    private async void EditListTitle(object sender, EventArgs e)
+    {
+        string result = await DisplayPromptAsync(
+            "Rename List", "Enter a new title:",
+            initialValue: listTitle.Text,
+            maxLength: 30);
+
+        if (!string.IsNullOrWhiteSpace(result))
+            listTitle.Text = result;
+    }
+
+    private void CompleteToDoItem(object sender, EventArgs e)
     {
         var button = (Button)sender;
-        var itemToDelete = ToDoItems.FirstOrDefault(x => x.item_id.ToString() == button.ClassId);
-
-        if (itemToDelete != null)
-        {
-            if (selectedItem == itemToDelete)
-                CancelEdit(sender, e);
-
-            ToDoItems.Remove(itemToDelete);
-            updateTitle();
-        }
+        var item = ToDoService.Items.FirstOrDefault(x => x.item_id.ToString() == button.ClassId);
+        if (item != null)
+            ToDoService.Complete(item);
     }
 
-    private void EditToDoItem(object sender, EventArgs e)
+    private async void EditToDoItem(object sender, EventArgs e)
     {
-        if (selectedItem != null)
-        {
-            selectedItem.item_name = titleEntry.Text ?? string.Empty;
-            selectedItem.item_description = detailsEditor.Text ?? string.Empty;
-            CancelEdit(sender, e);
-        }
-    }
-
-    private void CancelEdit(object sender, EventArgs e)
-    {
-        selectedItem = null;
-        ClearForm();
-
-        addBorder.IsVisible = true;
-        editBorder.IsVisible = false;
-        cancelBorder.IsVisible = false;
-
-        todoCV.SelectedItem = null;  // ← fixes CS8625 (no null literal on non-nullable)
+        var button = (Button)sender;
+        await Shell.Current.GoToAsync($"{nameof(EditTask)}?itemId={button.ClassId}");
     }
 
     private void TodoCV_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        if (e.CurrentSelection.FirstOrDefault() is not ToDoClass item) return;
-
-        selectedItem = item;
-        titleEntry.Text = selectedItem.item_name;
-        detailsEditor.Text = selectedItem.item_description;
-
-        addBorder.IsVisible = false;
-        editBorder.IsVisible = true;
-        cancelBorder.IsVisible = true;
+        todoCV.SelectedItem = null;
     }
 
-    private void updateTitle()
+    private void UpdateTitle()
     {
-        listTitle.Text = ToDoItems.Count == 0 ? "To-Do List is Empty..." : "To-Do List";
-    }
-
-    private void ClearForm()
-    {
-        titleEntry.Text = string.Empty;
-        detailsEditor.Text = string.Empty;
-        titleEntry.Unfocus();
-        detailsEditor.Unfocus();
+        listTitle.Text = ToDoService.Items.Count == 0 ? "Your To-Do List" : "Your To-Do List";
     }
 }
