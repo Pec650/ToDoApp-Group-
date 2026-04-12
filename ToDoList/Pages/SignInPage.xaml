@@ -9,12 +9,18 @@
             <Image Source="profile_image.png" HeightRequest="100" WidthRequest="100" Margin="0, 0, 0, 20"></Image>
             
             <Border>
-                <Entry x:Name="UsernameInput" Placeholder="Username" ReturnType="Next"></Entry>
+                <Entry x:Name="EmailInput" Placeholder="Email" ReturnType="Next"></Entry>
             </Border>
             
             <Border>
                 <Entry x:Name="PasswordInput" Placeholder="Password" IsPassword="True" ReturnType="Go"></Entry>
             </Border>
+            
+            <HorizontalStackLayout>
+                <CheckBox x:Name="ShowPass" CheckedChanged="ShowPassword"/>
+                <Label VerticalTextAlignment="Center">Show Password</Label>
+            </HorizontalStackLayout>
+            
             
             <Label x:Name="InputError" TextColor="Red" HorizontalTextAlignment="Start" IsVisible="False"></Label>
             
@@ -22,6 +28,8 @@
                     Style="{StaticResource SubmitBtn}"></Button>
             
             <Button x:Name="SignUpBtn" Text="Sign Up" Clicked="GoToSignUp"></Button>
+            
+            <ActivityIndicator x:Name="LoadingIndicator" IsRunning="False" VerticalOptions="Center" />
             
         </VerticalStackLayout>
     </ContentPage.Content>

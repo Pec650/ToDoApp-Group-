@@ -1,17 +1,26 @@
-﻿using System.Text.RegularExpressions;
+﻿namespace ToDoList.Pages;
 
-namespace ToDoList.Pages;
+using System.Text.RegularExpressions;
+using Newtonsoft.Json;
+using System.Diagnostics;
+using System.Threading.Tasks;
 
 public partial class SignUpPage
 {
+    public class SignupResponse
+    {
+        public int status { get; set; }
+        public string message { get; set; }
+    }
+    
     public SignUpPage()
     {
         InitializeComponent();
     }
 
-    private void SubmitSignUp(object? sender, EventArgs e)
+    private async void SubmitSignUp(object? sender, EventArgs e)
     {
-        if (IsEmptyInput(UsernameInput.Text) || IsEmptyInput(EmailInput.Text) ||
+        if (IsEmptyInput(FNameInput.Text) || IsEmptyInput(LNameInput.Text) || IsEmptyInput(EmailInput.Text) ||
             IsEmptyInput(PasswordInput.Text) || IsEmptyInput(ConfirmPassInput.Text))
         {
             ShowError("Please input all fields");
@@ -35,11 +44,84 @@ public partial class SignUpPage
             return;
         }
         
+        Color SubmitBtnBGColor = SubmitBtn.BackgroundColor;
+        Color SignInBtnBGColor = SignInBtn.BackgroundColor;
+        
+        SubmitBtn.IsEnabled = false;
+        SubmitBtn.BackgroundColor = Colors.Grey;
+        SignInBtn.IsEnabled = false;
+        SignInBtn.BackgroundColor = Colors.Grey;
+        LoadingIndicator.IsRunning = true;
         RemoveError();
-        GoToMain();
+        
+        bool success = await AttemptSignUp(FNameInput.Text, LNameInput.Text, EmailInput.Text, PasswordInput.Text, ConfirmPassInput.Text);
+
+        if (success)
+        {
+            await GoToMain();
+        }
+        
+        SubmitBtn.IsEnabled = true;
+        SubmitBtn.BackgroundColor = SubmitBtnBGColor;
+        SignInBtn.IsEnabled = true;
+        SignInBtn.BackgroundColor = SignInBtnBGColor;
+        LoadingIndicator.IsRunning = false;
     }
 
-    private async void GoToMain()
+    private async Task<bool> AttemptSignUp(string fname, string lname, string email, string password, string confirmPass)
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            try
+            {
+                string cleanFName = Uri.EscapeDataString(fname);
+                string cleanLName = Uri.EscapeDataString(lname);
+                string cleanEmail = Uri.EscapeDataString(email);
+                string cleanPassword = Uri.EscapeDataString(password);
+                
+                var signupData = new Dictionary<string, string>
+                {
+                    { "first_name", cleanFName },
+                    { "last_name", cleanLName },
+                    { "email", cleanEmail },
+                    { "password", cleanPassword },
+                    { "confirm_password", cleanPassword }
+                };
+
+                var content = new FormUrlEncodedContent(signupData);
+
+                var response = await client.PostAsync("https://todo-list.dcism.org/signup_action.php", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                    var result = JsonConvert.DeserializeObject<SignupResponse>(jsonResponse);
+
+                    if (result != null && result.status == 200)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        ShowError(result?.message ?? "Signup failed");
+                    }
+                }
+                else
+                {
+                    ShowError("Server communication error.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error: {ex.Message}");
+                ShowError("Please check your internet connection.");
+            }
+
+            return false;
+        }
+    }
+
+    private async Task GoToMain()
     {
         await Shell.Current.GoToAsync("//main");
     }
@@ -99,5 +181,15 @@ public partial class SignUpPage
     private void RemoveError()
     {
         InputError.IsVisible = false;
+    }
+
+    private void ShowPassword(object? sender, CheckedChangedEventArgs e)
+    {
+        PasswordInput.IsPassword = !ShowPass.IsChecked;
+    }
+
+    private void ShowConfirmPassword(object? sender, CheckedChangedEventArgs e)
+    {
+        ConfirmPassInput.IsPassword = !ShowConfirmPass.IsChecked;
     }
 }

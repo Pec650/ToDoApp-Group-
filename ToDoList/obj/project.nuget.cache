@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "keKvYYd2JWY=",
+  "dgSpecHash": "pyYbDTyvEkQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Rick Bryson\\Downloads\\ToDoApp\\ToDoApp (Group)\\ToDoList\\ToDoList.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,8 @@
     "C:\\Users\\Rick Bryson\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\Rick Bryson\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Rick Bryson\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250909003\\microsoft.windowsappsdk.1.7.250909003.nupkg.sha512",
+    "C:\\Users\\Rick Bryson\\.nuget\\packages\\newtonsoft.json\\13.0.5-beta1\\newtonsoft.json.13.0.5-beta1.nupkg.sha512",
+    "C:\\Users\\Rick Bryson\\.nuget\\packages\\xam.plugin.connectivity\\4.0.0.190-beta\\xam.plugin.connectivity.4.0.0.190-beta.nupkg.sha512",
     "C:\\Users\\Rick Bryson\\.nuget\\packages\\xamarin.android.glide\\4.16.0.14\\xamarin.android.glide.4.16.0.14.nupkg.sha512",
     "C:\\Users\\Rick Bryson\\.nuget\\packages\\xamarin.android.glide.annotations\\4.16.0.14\\xamarin.android.glide.annotations.4.16.0.14.nupkg.sha512",
     "C:\\Users\\Rick Bryson\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.16.0.14\\xamarin.android.glide.disklrucache.4.16.0.14.nupkg.sha512",

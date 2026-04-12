@@ -78,6 +78,14 @@
               "target": "Package",
               "version": "[10.0.2, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.5-beta1, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[4.0.0.190-beta, )"
             }
           },
           "imports": [
@@ -398,6 +406,14 @@
               "target": "Package",
               "version": "[10.0.2, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.5-beta1, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[4.0.0.190-beta, )"
             }
           },
           "imports": [
@@ -718,6 +734,14 @@
               "target": "Package",
               "version": "[10.0.2, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.5-beta1, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[4.0.0.190-beta, )"
             }
           },
           "imports": [
@@ -1033,6 +1057,14 @@
             "Microsoft.Maui.Essentials": {
               "target": "Package",
               "version": "[10.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.5-beta1, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[4.0.0.190-beta, )"
             }
           },
           "imports": [

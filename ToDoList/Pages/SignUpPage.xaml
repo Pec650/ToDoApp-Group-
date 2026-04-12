@@ -9,7 +9,11 @@
             <Image Source="profile_image.png" HeightRequest="100" WidthRequest="100" Margin="0, 0, 0, 20"></Image>
             
             <Border>
-                <Entry x:Name="UsernameInput" Placeholder="Username" ReturnType="Next"></Entry>
+                <Entry x:Name="FNameInput" Placeholder="First name" ReturnType="Next"></Entry>
+            </Border>
+            
+            <Border>
+                <Entry x:Name="LNameInput" Placeholder="Last name" ReturnType="Next"></Entry>
             </Border>
             
             <Border>
@@ -20,16 +24,28 @@
                 <Entry x:Name="PasswordInput" Placeholder="Password"  IsPassword="True" ReturnType="Next"></Entry>
             </Border>
             
+            <HorizontalStackLayout>
+                <CheckBox x:Name="ShowPass" CheckedChanged="ShowPassword"/>
+                <Label VerticalTextAlignment="Center">Show Password</Label>
+            </HorizontalStackLayout>
+            
             <Border>
                 <Entry x:Name="ConfirmPassInput" Placeholder="Password" IsPassword="True" ReturnType="Go"></Entry>
             </Border>
+            
+            <HorizontalStackLayout>
+                <CheckBox x:Name="ShowConfirmPass" CheckedChanged="ShowConfirmPassword"/>
+                <Label VerticalTextAlignment="Center">Show Confirm Password</Label>
+            </HorizontalStackLayout>
             
             <Label x:Name="InputError" TextColor="Red" HorizontalTextAlignment="Start" IsVisible="False"></Label>
             
             <Button x:Name="SubmitBtn" Text="Sign Up" Clicked="SubmitSignUp"
                     Style="{StaticResource SubmitBtn}"></Button>
             
-            <Button x:Name="SignUpBtn" Text="Sign In" Clicked="GoToSignIn"></Button>
+            <Button x:Name="SignInBtn" Text="Sign In" Clicked="GoToSignIn"></Button>
+            
+            <ActivityIndicator x:Name="LoadingIndicator" IsRunning="False" VerticalOptions="Center" />
             
         </VerticalStackLayout>
     </ContentPage.Content>
