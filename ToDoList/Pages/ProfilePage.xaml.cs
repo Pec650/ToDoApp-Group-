@@ -13,8 +13,8 @@ public partial class ProfilePage : ContentPage
         InitializeComponent();
     }
 
-    private void LogOut(object? sender, EventArgs e)
+    private async void LogOut(object? sender, EventArgs e)
     {
-        Application.Current.MainPage = new SignInPage();
+        await Shell.Current.GoToAsync("//SignInPage");
     }
 }

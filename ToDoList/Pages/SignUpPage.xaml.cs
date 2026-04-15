@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 public partial class SignUpPage
 {
+    private static readonly HttpClient _httpClient = new HttpClient();
+    
     public class SignupResponse
     {
         public int status { get; set; }
@@ -59,6 +61,7 @@ public partial class SignUpPage
         if (success)
         {
             await GoToMain();
+            return;
         }
         
         SubmitBtn.IsEnabled = true;
@@ -70,50 +73,50 @@ public partial class SignUpPage
 
     private async Task<bool> AttemptSignUp(string fname, string lname, string email, string password, string confirmPass)
     {
-        using (HttpClient client = new HttpClient())
+        try
         {
-            try
+            var signupData = new Dictionary<string, string>
             {
-                var signupData = new Dictionary<string, string>
-                {
-                    { "first_name", fname },
-                    { "last_name", lname },
-                    { "email", email },
-                    { "password", password },
-                    { "confirm_password", confirmPass }
-                };
+                { "first_name", fname },
+                { "last_name", lname },
+                { "email", email },
+                { "password", password },
+                { "confirm_password", confirmPass }
+            };
 
-                var content = new FormUrlEncodedContent(signupData);
+            // FormUrlEncodedContent handles the "cleaning" of data for you
+            var content = new FormUrlEncodedContent(signupData);
 
-                var response = await client.PostAsync("https://todo-list.dcism.org/signup_action.php", content);
+            var response = await _httpClient.PostAsync("https://todo-list.dcism.org/signup_action.php", content);
 
-                if (response.IsSuccessStatusCode)
-                {
-                    string jsonResponse = await response.Content.ReadAsStringAsync();
-                    var result = JsonConvert.DeserializeObject<SignupResponse>(jsonResponse);
-
-                    if (result != null && result.status == 200)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        ShowError(result?.message ?? "Signup failed");
-                    }
-                }
-                else
-                {
-                    ShowError("Server communication error.");
-                }
-            }
-            catch (Exception ex)
+            if (response.IsSuccessStatusCode)
             {
-                Debug.WriteLine($"Error: {ex.Message}");
-                ShowError("Please check your internet connection.");
-            }
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+                var result = JsonConvert.DeserializeObject<SignupResponse>(jsonResponse);
 
-            return false;
+                if (result != null && result.status == 200)
+                {
+                    return true;
+                }
+            
+                ShowError(result?.message ?? "Signup failed");
+            }
+            else
+            {
+                ShowError($"Server Error: {response.StatusCode}");
+            }
         }
+        catch (HttpRequestException)
+        {
+            ShowError("Network error. Please check your connection.");
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"Critical Error: {ex.Message}");
+            ShowError("An unexpected error occurred.");
+        }
+
+        return false;
     }
 
     private async Task GoToMain()

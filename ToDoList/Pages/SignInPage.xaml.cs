@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 public partial class SignInPage
 {
+    private static readonly HttpClient _httpClient = new HttpClient();
+    
     public class UserProfile
     {
         public int id { get; set; }
@@ -50,6 +52,7 @@ public partial class SignInPage
         if (success)
         {
             await GoToMain();
+            return;
         }
         else
         {
@@ -63,41 +66,38 @@ public partial class SignInPage
 
     private async Task<bool> AttemptSignIn(string email, string password)
     {
-        using (HttpClient client = new HttpClient())
+        try
         {
-            try
+            string cleanEmail = Uri.EscapeDataString(email);
+            string cleanPassword = Uri.EscapeDataString(password);
+            
+            var response = await _httpClient.GetAsync($"https://todo-list.dcism.org/signin_action.php?email={cleanEmail}&password={cleanPassword}");
+
+            if (response.IsSuccessStatusCode)
             {
-                string cleanEmail = Uri.EscapeDataString(email);
-                string cleanPassword = Uri.EscapeDataString(password);
-                
-                var response = await client.GetAsync($"https://todo-list.dcism.org/signin_action.php?email={cleanEmail}&password={cleanPassword}");
+                string jsonString = await response.Content.ReadAsStringAsync();
+                var root = JsonConvert.DeserializeObject<SignInResponse>(jsonString);
 
-                if (response.IsSuccessStatusCode)
+                if (root != null && root.status == 200)
                 {
-                    string jsonString = await response.Content.ReadAsStringAsync();
-                    var root = JsonConvert.DeserializeObject<SignInResponse>(jsonString);
-
-                    if (root != null && root.status == 200)
-                    {
-                        return true; 
-                    }
-                    else
-                    {
-                        ShowError("Incorrect username or password");
-                    }
+                    return true; 
                 }
                 else
                 {
-                    ShowError("Server communication error.");
+                    ShowError("Incorrect username or password");
                 }
             }
-            catch (Exception e)
+            else
             {
-                Debug.WriteLine($"Error: {e.Message}");
-                ShowError("Check your internet connection");
+                ShowError("Server communication error.");
             }
-            return false;
         }
+        catch (Exception e)
+        {
+            Debug.WriteLine($"Error: {e.Message}");
+            ShowError("Check your internet connection");
+        }
+        return false;
     }
     
     private async Task GoToMain()
@@ -129,5 +129,22 @@ public partial class SignInPage
     private void ShowPassword(object? sender, CheckedChangedEventArgs e)
     {
         PasswordInput.IsPassword = !ShowPass.IsChecked;
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        EmailInput.Text = string.Empty;
+        PasswordInput.Text = string.Empty;
+        
+        InputError.IsVisible = false;
+        LoadingIndicator.IsRunning = false;
+        
+        SubmitBtn.IsEnabled = true;
+        SubmitBtn.BackgroundColor = Colors.DarkSlateBlue;
+        
+        SignUpBtn.IsEnabled = true;
+        SignUpBtn.BackgroundColor = Colors.CornflowerBlue;
     }
 }
