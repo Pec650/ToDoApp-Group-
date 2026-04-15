@@ -84,8 +84,8 @@ public partial class SignUpPage
                 { "confirm_password", confirmPass }
             };
 
-            // FormUrlEncodedContent handles the "cleaning" of data for you
-            var content = new FormUrlEncodedContent(signupData);
+            var json = JsonConvert.SerializeObject(signupData);
+            var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
             var response = await _httpClient.PostAsync("https://todo-list.dcism.org/signup_action.php", content);
 
