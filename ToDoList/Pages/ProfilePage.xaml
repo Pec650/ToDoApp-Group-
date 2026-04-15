@@ -8,6 +8,12 @@
             
             <Image Source="profile_image.png" HeightRequest="100" WidthRequest="100" Margin="0, 0, 0, 20"></Image>
             
+            <Label x:Name="FullName" Text=""
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   FontSize="25"
+                   TextColor="Black"/>
+            
             <Button x:Name="SubmitBtn" Text="Log Out" Clicked="LogOut" BackgroundColor="DimGray"
                     Style="{StaticResource SubmitBtn}"></Button>
             

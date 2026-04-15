@@ -80,7 +80,8 @@ public partial class SignInPage
 
                 if (root != null && root.status == 200)
                 {
-                    return true; 
+                    App.CurrentUser.setCurrentUser(root.data.id, root.data.fname, root.data.lname, root.data.email);
+                    return true;
                 }
                 else
                 {
@@ -131,10 +132,21 @@ public partial class SignInPage
         PasswordInput.IsPassword = !ShowPass.IsChecked;
     }
 
-    protected override void OnAppearing()
+    protected async override void OnAppearing()
     {
         base.OnAppearing();
 
+        if (App.isLoggedIn())
+        {
+            await GoToMain();
+            return;
+        }
+
+        resetUIStates();
+    }
+
+    private void resetUIStates()
+    {
         EmailInput.Text = string.Empty;
         PasswordInput.Text = string.Empty;
         
