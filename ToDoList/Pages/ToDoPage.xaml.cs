@@ -1,27 +1,153 @@
 ﻿namespace ToDoList.Pages;
 
-using System.Linq;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
+using Newtonsoft.Json;
 
 public partial class ToDoPage : ContentPage
 {
+    private static readonly HttpClient _httpClient = new HttpClient();
+    
+    public class ItemProfile
+    {
+        public int item_id { get; set; }
+        public string item_name { get; set; }
+        public string item_description { get; set; }
+    }
+        
+    public class TaskResponse
+    {
+        public int status { get; set; }
+        public Dictionary<string, ItemProfile> data { get; set; }
+        public int count { get; set; }
+    }
+    
     public ToDoPage()
     {
         InitializeComponent();
         todoCV.ItemsSource = ToDoService.Items;
     }
 
-    protected override void OnAppearing()
+    protected async override void OnAppearing()
     {
         base.OnAppearing();
-        UpdateTitle();
+    
+        if (!App.isLoggedIn())
+        {
+            await ReturnToSignIn();
+            return;
+        }
+        
+        await GetUserTasks();
     }
-
-    private async void GoToNewTask(object sender, EventArgs e)
+    
+    private async Task GetUserTasks()
     {
-        await Shell.Current.GoToAsync(nameof(NewTask));
-    }
+        try
+        {
+            if (App.CurrentUser == null) return;
 
-    private async void EditListTitle(object sender, EventArgs e)
+            int userID = App.CurrentUser.id;
+            var response = await _httpClient.GetAsync($"https://todo-list.dcism.org/getItems_action.php?status=active&user_id={userID}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                string jsonString = await response.Content.ReadAsStringAsync();
+                var root = JsonConvert.DeserializeObject<TaskResponse>(jsonString);
+
+                if (root != null && root.status == 200 && root.data != null)
+                {
+                    MainThread.BeginInvokeOnMainThread(() =>
+                    {
+                        ToDoService.Items.Clear();
+                    
+                        foreach (var entry in root.data.Values)
+                        {
+                            var newItem = new ToDoClass 
+                            {
+                                item_id = entry.item_id,
+                                item_name = entry.item_name,
+                                item_description = entry.item_description
+                            };
+                        
+                            ToDoService.Items.Add(newItem);
+                        }
+                        UpdateTitle();
+                    });
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.WriteLine($"Error: {e.Message}");
+        }
+    }
+    
+    private async Task ReturnToSignIn()
+    {
+        App.resetUser();
+        await Shell.Current.GoToAsync("//SignInPage");
+    }
+    
+    private async void CompleteToDoItem(object sender, EventArgs e)
+    {
+        var button = (Button)sender;
+        if (button == null || !int.TryParse(button.ClassId, out int itemId)) return;
+
+        bool success = await UpdateTaskStatusOnServer(itemId);
+
+        if (success)
+        {
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                var item = ToDoService.Items.FirstOrDefault(x => x.item_id == itemId);
+                if (item != null)
+                {
+                    ToDoService.Complete(item);
+                    UpdateTitle();
+                }
+            });
+        }
+        else
+        {
+            await DisplayAlert("Error", "Server failed to update. Check connection.", "OK");
+        }
+    }
+    
+    private async Task<bool> UpdateTaskStatusOnServer(int itemId)
+    {
+        try 
+        {
+            var formData = new Dictionary<string, string>
+            {
+                { "status ", "inactive" },
+                { "item_id", itemId.ToString() }
+            };
+
+            var content = new FormUrlEncodedContent(formData);
+
+            _httpClient.DefaultRequestHeaders.Clear();
+            _httpClient.DefaultRequestHeaders.Add("X-HTTP-Method-Override", "PUT");
+
+            var response = await _httpClient.PostAsync("https://todo-list.dcism.org/statusItem_action.php", content);
+        
+            string responseBody = await response.Content.ReadAsStringAsync();
+            Debug.WriteLine($"SERVER RESPONSE: {responseBody}");
+
+            return response.IsSuccessStatusCode;
+        } 
+        catch (Exception ex) 
+        { 
+            Debug.WriteLine($"Network Error: {ex.Message}");
+            return false; 
+        }
+    }
+    
+    private void UpdateTitle()
+    {
+        listTitle.Text = ToDoService.Items.Count == 0 ? "Empty List" : "Your To-Do List";
+    }
+    private async void EditListTitle(object? sender, TappedEventArgs e)
     {
         string result = await DisplayPromptAsync(
             "Rename List", "Enter a new title:",
@@ -32,27 +158,14 @@ public partial class ToDoPage : ContentPage
             listTitle.Text = result;
     }
 
-    private void CompleteToDoItem(object sender, EventArgs e)
-    {
-        var button = (Button)sender;
-        var item = ToDoService.Items.FirstOrDefault(x => x.item_id.ToString() == button.ClassId);
-        if (item != null)
-            ToDoService.Complete(item);
-    }
-
-    private async void EditToDoItem(object sender, EventArgs e)
+    private async void EditToDoItem(object? sender, EventArgs e)
     {
         var button = (Button)sender;
         await Shell.Current.GoToAsync($"{nameof(EditTask)}?itemId={button.ClassId}");
     }
 
-    private void TodoCV_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    private async void GoToNewTask(object? sender, TappedEventArgs e)
     {
-        todoCV.SelectedItem = null;
-    }
-
-    private void UpdateTitle()
-    {
-        listTitle.Text = ToDoService.Items.Count == 0 ? "Your To-Do List" : "Your To-Do List";
+        await Shell.Current.GoToAsync(nameof(NewTask));
     }
 }
