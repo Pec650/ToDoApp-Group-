@@ -58,7 +58,6 @@ public partial class SignInPage
             SignUpBtn.IsEnabled = true;
             SignUpBtn.BackgroundColor = SignUpBtnBGColor;
             LoadingIndicator.IsRunning = false;
-            ShowError("Incorrect username or password");
         }
     }
 
@@ -82,11 +81,20 @@ public partial class SignInPage
                     {
                         return true; 
                     }
+                    else
+                    {
+                        ShowError("Incorrect username or password");
+                    }
+                }
+                else
+                {
+                    ShowError("Server communication error.");
                 }
             }
             catch (Exception e)
             {
                 Debug.WriteLine($"Error: {e.Message}");
+                ShowError("Check your internet connection");
             }
             return false;
         }

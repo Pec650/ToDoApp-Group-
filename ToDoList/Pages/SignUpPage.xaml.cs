@@ -74,18 +74,13 @@ public partial class SignUpPage
         {
             try
             {
-                string cleanFName = Uri.EscapeDataString(fname);
-                string cleanLName = Uri.EscapeDataString(lname);
-                string cleanEmail = Uri.EscapeDataString(email);
-                string cleanPassword = Uri.EscapeDataString(password);
-                
                 var signupData = new Dictionary<string, string>
                 {
-                    { "first_name", cleanFName },
-                    { "last_name", cleanLName },
-                    { "email", cleanEmail },
-                    { "password", cleanPassword },
-                    { "confirm_password", cleanPassword }
+                    { "first_name", fname },
+                    { "last_name", lname },
+                    { "email", email },
+                    { "password", password },
+                    { "confirm_password", confirmPass }
                 };
 
                 var content = new FormUrlEncodedContent(signupData);
