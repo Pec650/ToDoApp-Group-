@@ -23,14 +23,13 @@
                    Padding="0,10"/>
         </Border>
 
-        <ScrollView Grid.Row="2">
-            <CollectionView x:Name="completedCV" SelectionMode="None">
-                <CollectionView.EmptyView>
-                    <Label Text="No completed tasks yet"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"
-                           TextColor="Gray" Margin="0,40,0,0"/>
-                </CollectionView.EmptyView>
+        <CollectionView x:Name="completedCV" SelectionMode="None" Grid.Row="2">
+            <CollectionView.EmptyView>
+                <Label Text="No completed tasks yet"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="Gray" Margin="0,40,0,0"/>
+            </CollectionView.EmptyView>
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:CompletedTask">
                         <Grid Margin="10,5" RowDefinitions="Auto,Auto,Auto"
@@ -78,7 +77,6 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-        </ScrollView>
 
     </Grid>
 

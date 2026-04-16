@@ -1,31 +1,25 @@
-﻿using MauiApp1;
-using Microsoft.Extensions.DependencyInjection;
+﻿namespace ToDoList;
 
-namespace ToDoList;
-
-using ToDoList.Pages;
+using ToDoList.Pages; // This now works because User is in this namespace
 
 public partial class App : Application
 {
-    public static User CurrentUser = new User();
+    // Static instance so it's globally accessible
+    public static User CurrentUser { get; } = new User();
     
     public App()
     {
         InitializeComponent();
+        MainPage = new AppShell();
     }
 
-    protected override Window CreateWindow(IActivationState? activationState)
-    {
-        return new Window(new AppShell());
-    }
-    
     public static void resetUser()
     {
-        CurrentUser.emptyUser();
+        CurrentUser.emptyUser(); // Uses your method from User.cs
     }
 
     public static bool isLoggedIn()
     {
-        return CurrentUser.userExists();
+        return CurrentUser.userExists(); // Uses your method from User.cs
     }
 }

@@ -1,6 +1,6 @@
-namespace ToDoList.Pages;
+using System.Diagnostics;
 
-using System.Linq;
+namespace ToDoList.Pages;
 
 public partial class CompletedPage : ContentPage
 {
@@ -8,44 +8,55 @@ public partial class CompletedPage : ContentPage
     {
         InitializeComponent();
         completedCV.ItemsSource = ToDoService.CompletedItems;
+        Debug.WriteLine($"CompletedPage ctor loggedIn={App.isLoggedIn()} userId={App.CurrentUser.id} completedCount={ToDoService.CompletedItems.Count}");
+
+        if (App.isLoggedIn())
+        {
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                _ = ToDoService.FetchCompletedTasksAsync(App.CurrentUser.id, "inactive");
+            });
+        }
     }
 
-    protected override void OnAppearing()
+    protected override async void OnAppearing()
     {
         base.OnAppearing();
-        ToDoService.PurgeExpired();
+        
+        Debug.WriteLine($"CompletedPage.OnAppearing loggedIn={App.isLoggedIn()} userId={App.CurrentUser.id}");
+        int userId = App.CurrentUser.id;
+        if (userId > 0)
+        {
+            await ToDoService.FetchCompletedTasksAsync(userId, "inactive");
+            Debug.WriteLine($"CompletedPage.OnAppearing after fetch completedCount={ToDoService.CompletedItems.Count}");
+            ToDoService.PurgeExpired();
+        }
     }
 
     private void UndoComplete(object sender, EventArgs e)
     {
         var button = (Button)sender;
-        var completed = ToDoService.CompletedItems
-            .FirstOrDefault(x => x.Item.item_id.ToString() == button.ClassId);
-        if (completed == null) return;
-
-        ToDoService.Items.Add(completed.Item);
-        ToDoService.CompletedItems.Remove(completed);
+        var completed = ToDoService.CompletedItems.FirstOrDefault(x => x.Item.item_id.ToString() == button.ClassId);
+        if (completed != null)
+        {
+            ToDoService.CompletedItems.Remove(completed);
+            completed.Item.status = "active";
+            ToDoService.Items.Add(completed.Item);
+        }
     }
 
     private void DeleteComplete(object sender, EventArgs e)
     {
         var button = (Button)sender;
-        var completed = ToDoService.CompletedItems
-            .FirstOrDefault(x => x.Item.item_id.ToString() == button.ClassId);
-        if (completed != null)
-            ToDoService.CompletedItems.Remove(completed);
+        var completed = ToDoService.CompletedItems.FirstOrDefault(x => x.Item.item_id.ToString() == button.ClassId);
+        if (completed != null) ToDoService.CompletedItems.Remove(completed);
     }
+
 
     private async void DeleteAll(object sender, EventArgs e)
     {
         if (ToDoService.CompletedItems.Count == 0) return;
-
-        bool confirm = await DisplayAlert(
-            "Delete All",
-            "Are you sure you want to delete all completed tasks?",
-            "Delete", "Cancel");
-
-        if (confirm)
-            ToDoService.CompletedItems.Clear();
+        bool confirm = await DisplayAlertAsync("Delete All", "Confirm deletion?", "Delete", "Cancel");
+        if (confirm) ToDoService.CompletedItems.Clear();
     }
 }

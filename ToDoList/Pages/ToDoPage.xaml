@@ -28,14 +28,13 @@
             </HorizontalStackLayout>
 
             <!-- Task list -->
-            <ScrollView Grid.Row="1">
-                <CollectionView x:Name="todoCV" SelectionMode="None">
-                    <CollectionView.EmptyView>
-                        <Label Text="Nothing to show yet"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center"
-                               TextColor="Gray" Margin="0,40,0,0"/>
-                    </CollectionView.EmptyView>
+            <CollectionView x:Name="todoCV" SelectionMode="None" Grid.Row="1">
+                <CollectionView.EmptyView>
+                    <Label Text="Nothing to show yet"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           TextColor="Gray" Margin="0,40,0,0"/>
+                </CollectionView.EmptyView>
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="models:ToDoClass">
                             <Grid RowSpacing="5" HorizontalOptions="Fill" Margin="10,5">
@@ -83,7 +82,6 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
-            </ScrollView>
 
         </Grid>
 

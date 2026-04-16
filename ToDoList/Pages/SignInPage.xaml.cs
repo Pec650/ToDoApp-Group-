@@ -20,8 +20,8 @@ public partial class SignInPage
     public class SignInResponse
     {
         public int status { get; set; }
-        public UserProfile data { get; set; }
-        public string message { get; set; }
+        public UserProfile? data { get; set; } // Use ? to say this can be null
+        public string message { get; set; } = string.Empty;
     }
     
     public SignInPage()
@@ -80,7 +80,15 @@ public partial class SignInPage
 
                 if (root != null && root.status == 200)
                 {
-                    App.CurrentUser.setCurrentUser(root.data.id, root.data.fname, root.data.lname, root.data.email);
+                    Debug.WriteLine($"SignIn success id={root.data?.id} email={root.data?.email} fname={root.data?.fname}");
+                    // Correct way to set the global user
+                    App.CurrentUser.setCurrentUser(
+                        root.data.id, 
+                        root.data.fname, 
+                        root.data.lname, 
+                        root.data.email
+                    );
+                    Debug.WriteLine($"App.CurrentUser.id={App.CurrentUser.id} isLoggedIn={App.isLoggedIn()}");
                     return true;
                 }
                 else

@@ -1,35 +1,12 @@
-﻿namespace MauiApp1;
+﻿namespace ToDoList.Pages; // Change this from MauiApp1 to match your project
 
 public class User
 {
-    private int _id { get; set; }
-    private String _fname { get; set; }
-    private String _lname { get; set; }
-    private String _email { get; set; }
-
-    public int id
-    {
-        get { return _id; }
-        set { _id = value; }
-    }
-    
-    public String fname
-    {
-        get { return _fname; }
-        set { _fname = value; }
-    }
-    
-    public String lname
-    {
-        get { return _lname; }
-        set { _lname = value; }
-    }
-
-    public String email
-    {
-        get { return _email; }
-        set { _email = value; }
-    }
+    // The API uses 'id', 'fname', 'lname', 'email'
+    public int id { get; set; }
+    public string fname { get; set; } = string.Empty;
+    public string lname { get; set; } = string.Empty;
+    public string email { get; set; } = string.Empty;
 
     public User()
     {
