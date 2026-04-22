@@ -89,12 +89,72 @@ public partial class ToDoPage : ContentPage
         await Shell.Current.GoToAsync("//SignInPage");
     }
     
+    // private async void CompleteToDoItem(object sender, EventArgs e)
+    // {
+    //     var button = (Button)sender;
+    //     if (button == null || !int.TryParse(button.ClassId, out int itemId)) return;
+    //
+    //     bool success = await UpdateTaskStatusOnServer(itemId);
+    //
+    //     if (success)
+    //     {
+    //         MainThread.BeginInvokeOnMainThread(() =>
+    //         {
+    //             var item = ToDoService.Items.FirstOrDefault(x => x.item_id == itemId);
+    //             if (item != null)
+    //             {
+    //                 ToDoService.Complete(item);
+    //                 UpdateTitle();
+    //             }
+    //         });
+    //     }
+    //     else
+    //     {
+    //         await DisplayAlert("Error", "Server failed to update. Check connection.", "OK");
+    //     }
+    // }
+    //
+    // private async Task<bool> UpdateTaskStatusOnServer(int itemId)
+    // {
+    //     try 
+    //     {
+    //         var formData = new Dictionary<string, string>
+    //         {
+    //             { "status ", "inactive" },
+    //             { "item_id", itemId.ToString() }
+    //         };
+    //
+    //         var content = new FormUrlEncodedContent(formData);
+    //
+    //         _httpClient.DefaultRequestHeaders.Clear();
+    //         _httpClient.DefaultRequestHeaders.Add("X-HTTP-Method-Override", "PUT");
+    //
+    //         var response = await _httpClient.PostAsync("https://todo-list.dcism.org/statusItem_action.php", content);
+    //     
+    //         string responseBody = await response.Content.ReadAsStringAsync();
+    //         Debug.WriteLine($"SERVER RESPONSE: {responseBody}");
+    //
+    //         return response.IsSuccessStatusCode;
+    //     } 
+    //     catch (Exception ex) 
+    //     { 
+    //         Debug.WriteLine($"Network Error: {ex.Message}");
+    //         return false; 
+    //     }
+    // }
+    
     private async void CompleteToDoItem(object sender, EventArgs e)
     {
         var button = (Button)sender;
         if (button == null || !int.TryParse(button.ClassId, out int itemId)) return;
 
-        bool success = await UpdateTaskStatusOnServer(itemId);
+        var payload = new
+        {
+            item_id = itemId,
+            status = "inactive"
+        };
+
+        bool success = await UpdateTaskStatusOnServer(payload);
 
         if (success)
         {
@@ -110,36 +170,25 @@ public partial class ToDoPage : ContentPage
         }
         else
         {
-            await DisplayAlert("Error", "Server failed to update. Check connection.", "OK");
+            await DisplayAlert("Error", "Could not update task on the server.", "OK");
         }
     }
-    
-    private async Task<bool> UpdateTaskStatusOnServer(int itemId)
+
+    private async Task<bool> UpdateTaskStatusOnServer(object data)
     {
-        try 
+        try
         {
-            var formData = new Dictionary<string, string>
-            {
-                { "status ", "inactive" },
-                { "item_id", itemId.ToString() }
-            };
+            string json = JsonConvert.SerializeObject(data);
+            var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
-            var content = new FormUrlEncodedContent(formData);
-
-            _httpClient.DefaultRequestHeaders.Clear();
-            _httpClient.DefaultRequestHeaders.Add("X-HTTP-Method-Override", "PUT");
-
-            var response = await _httpClient.PostAsync("https://todo-list.dcism.org/statusItem_action.php", content);
+            var response = await _httpClient.PutAsync("https://todo-list.dcism.org/statusItem_action.php", content);
         
-            string responseBody = await response.Content.ReadAsStringAsync();
-            Debug.WriteLine($"SERVER RESPONSE: {responseBody}");
-
             return response.IsSuccessStatusCode;
-        } 
-        catch (Exception ex) 
-        { 
-            Debug.WriteLine($"Network Error: {ex.Message}");
-            return false; 
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"Update Error: {ex.Message}");
+            return false;
         }
     }
     

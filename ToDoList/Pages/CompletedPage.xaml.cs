@@ -96,29 +96,75 @@ public partial class CompletedPage : ContentPage
         await Shell.Current.GoToAsync("//SignInPage");
     }
 
+    // private async void UndoComplete(object sender, EventArgs e)
+    // {
+    //     var button = (Button)sender;
+    //     if (button == null || string.IsNullOrEmpty(button.ClassId)) return;
+    //
+    //     var completed = ToDoService.CompletedItems
+    //         .FirstOrDefault(x => x.Item.item_id.ToString() == button.ClassId);
+    //
+    //     if (completed == null) return;
+    //
+    //     var statusData = new
+    //     {
+    //         @status_ = "active", 
+    //         item_id = completed.Item.item_id
+    //     };
+    //
+    //     var payload = new Dictionary<string, object>
+    //     {
+    //         { "status", "active" },
+    //         { "item_id", completed.Item.item_id }
+    //     };
+    //
+    //     bool success = await ChangeStatusOnServer(payload);
+    //
+    //     if (success)
+    //     {
+    //         MainThread.BeginInvokeOnMainThread(() =>
+    //         {
+    //             ToDoService.Items.Add(completed.Item);
+    //             ToDoService.CompletedItems.Remove(completed);
+    //         });
+    //     }
+    // }
+    //
+    // private async Task<bool> ChangeStatusOnServer(Dictionary<string, object> payload)
+    // {
+    //     try
+    //     {
+    //         var json = JsonConvert.SerializeObject(payload);
+    //         var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+    //
+    //         var response = await _httpClient.PutAsync("https://todo-list.dcism.org/statusItem_action.php", content);
+    //     
+    //         return response.IsSuccessStatusCode;
+    //     }
+    //     catch (Exception e)
+    //     {
+    //         Debug.WriteLine($"Status Update Error: {e.Message}");
+    //         return false;
+    //     }
+    // }
+    
     private async void UndoComplete(object sender, EventArgs e)
     {
         var button = (Button)sender;
-        if (button == null || string.IsNullOrEmpty(button.ClassId)) return;
-
+        if (button == null || !int.TryParse(button.ClassId, out int itemId)) return;
+        
         var completed = ToDoService.CompletedItems
             .FirstOrDefault(x => x.Item.item_id.ToString() == button.ClassId);
-    
+        
         if (completed == null) return;
 
-        var statusData = new
+        var payload = new
         {
-            @status_ = "active", 
-            item_id = completed.Item.item_id
+            item_id = itemId,
+            status = "active"
         };
 
-        var payload = new Dictionary<string, object>
-        {
-            { "status", "active" },
-            { "item_id", completed.Item.item_id }
-        };
-
-        bool success = await ChangeStatusOnServer(payload);
+        bool success = await UpdateTaskStatusOnServer(payload);
 
         if (success)
         {
@@ -128,22 +174,26 @@ public partial class CompletedPage : ContentPage
                 ToDoService.CompletedItems.Remove(completed);
             });
         }
+        else
+        {
+            await DisplayAlert("Error", "Could not update task on the server.", "OK");
+        }
     }
 
-    private async Task<bool> ChangeStatusOnServer(Dictionary<string, object> payload)
+    private async Task<bool> UpdateTaskStatusOnServer(object data)
     {
         try
         {
-            var json = JsonConvert.SerializeObject(payload);
+            string json = JsonConvert.SerializeObject(data);
             var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
             var response = await _httpClient.PutAsync("https://todo-list.dcism.org/statusItem_action.php", content);
         
             return response.IsSuccessStatusCode;
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            Debug.WriteLine($"Status Update Error: {e.Message}");
+            Debug.WriteLine($"Update Error: {ex.Message}");
             return false;
         }
     }
