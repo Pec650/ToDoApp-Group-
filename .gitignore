@@ -1,5 +1,41 @@
+# .NET MAUI / .NET Standard / .NET Core
+[Bb]in/
+[Oo]bj/
+publish/
+artifacts/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.user
+*.orig
+*.suo
+
+# macOS System Files
 .DS_Store
-ToDoList/bin/
-ToDoList/bin/Debug/
-ToDoList/obj/
-ToDoList/obj/Debug/
+
+# Android
+*.keystore
+*.jks
+*.ap_
+*.apk
+*.aab
+
+# iOS / MacCatalyst
+*.app
+*.ipa
+*.vsmac-rev
+
+# Mobile/MAUI Specifics
+.xamlg.cs
+*.device
+
+# Environment / Secrets
+.env
+appsettings.Development.json
+secrets.json
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
